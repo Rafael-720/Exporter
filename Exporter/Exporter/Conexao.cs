@@ -9,7 +9,7 @@ namespace Exporter
 {
     public class Conexao : IDisposable
     {
-        private string connectionString = "Host=20.206.66.59;Port=54320;Username=postgres;Password=M@rco1972@*!;Database=DW_PLATAFORMA";
+        private string connectionString = "";
         private NpgsqlConnection connection;
         private NpgsqlCommand command, cmd2, cmd3;
         private NpgsqlDataReader reader;
